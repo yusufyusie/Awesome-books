@@ -36,3 +36,21 @@ class LocalStore {
     }
 }
 
+// Add books
+addButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    const books = LocalStore.storeBooks();
+    const newTitle = titleInput.value;
+    const newAuthor = authorInput.value;
+    let newId;
+    const len = books.length;
+    if(len === 0 || len === null) {
+        newId = 0;
+    } else {
+        newId = books[len-1].id + 1;
+    }
+    addNewBook = new Book(newTitle, newAuthor, newId);
+    if(newTitle.length !==0 && newAuthor.length !==0){
+        localStorage.addBooks(addNewBook);
+    }
+})
