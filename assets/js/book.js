@@ -1,3 +1,8 @@
+// variables
+const form = document.querySelector('.add-book-form');
+const titleInput = document.querySelector('.title-book')
+const authorInput = document.querySelector('.author-book')
+const addButton = document.querySelector('.add-btn');
 // Declare Main Class
 class Book{
     static arraylist = [];
@@ -31,4 +36,3 @@ class LocalStore {
     }
 }
 
-// 
