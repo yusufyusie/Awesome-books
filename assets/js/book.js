@@ -46,8 +46,8 @@ class Book {
     addNewBook.id = newId;
     const bookInfo = `
       <div id="${newId}">
-        <p>${addNewBook.title}</p>
-        <p>${addNewBook.author}</p>
+        <p>"<span>${addNewBook.title}</span>" by
+        <span class="">${addNewBook.author}</span></p>
         <button id="${newId}" class="btn-remove">Remove</button>
         <hr>
       </div>
