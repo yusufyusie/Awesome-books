@@ -15,6 +15,25 @@ class Book {
     this.id = id;
   }
 
+  static storeBooks() {
+    let books;
+    const storeData = localStorage.getItem('local');
+    if (!storeData) {
+      books = [];
+    } else {
+      books = JSON.parse(storeData);
+    }
+    return books;
+  }
+
+  static addBooks(addNewBook) {
+    const books = Book.storeBooks();
+    if (books) {
+      books.push(addNewBook);
+      localStorage.setItem('local', JSON.stringify(books));
+    }
+  }
+
   static showBooks() {
     const books = Book.storeBooks();
     books.forEach((addNewBook) => {
