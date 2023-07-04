@@ -26,36 +26,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Awesome Bookes] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[Awesome Bookes ES6]** is a project builds a basic website that allows users to add and remove books from the list. <br>
+                the project is done by using JavaScript objects and arrays. <br>
+                Also include dynamic modification of the Dom and add basic events.<br>
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Javascript_basics">JavaScript</a></li>
   </ul>
 </details>
 
@@ -63,19 +49,15 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[JavaScript objects]**
+- **[JavaScript access properties and methods]**
+- **[Local storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://google.com)
 
@@ -85,83 +67,61 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+Clone this repository to your desired folder or download the Zip folder:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+git clone https://github.com/yesuf023/awesome-books.git
+
+
+- Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd awesome-books``**
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+npm install
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- After Cloning this repo to your local machine.
+- Open the `index.html` in your browser.
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
+- Track HTML linter errors run:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+npx hint .
 
-### Deployment
+- Track Javascript linter errors run:
 
-You can deploy this project using:
+npx eslint .
 
-<!--
-Example:
+### Deployment <a name="deployment"></a>
 
-```sh
-
-```
- -->
+You can deploy this project using: GitHub Pages,
+- I will use GitHub Pages to deploy my website.
+- Coming Soon".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,19 +129,14 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Yesuf Fenta**
 
-👤 **Author1**
+- GitHub: [@yesuf023](https://github.com/yesuf023/Portfolio)
+- LinkedIn: [yesufenta](https://www.linkedin.com/in/yesufenta/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Blessing Michael**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@blessing-michael](https://github.com/blessing-michael)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,11 +144,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Add the navigation bar]**
+- [ ] **[Implement CSS and contact page]**
+- [ ] **[Implement Transitions Animation for hover effect.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,9 +164,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project and how I managed to build it!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,9 +172,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+- Project from [Microverse](https://www.microverse.org/) html & css module.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,24 +184,18 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Can I fork and reuse the repository**
 
-- **[Question_1]**
+  - Yes please, feel free.
 
-  - [Answer_1]
+- **Can I improve the repository, and my changes will be accepted if they are good?**
 
-- **[Question_2]**
-
-  - [Answer_2]
-
+  - Yes please, nice ideas are welcome, please.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
+This project is [MIT](./MIT) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
