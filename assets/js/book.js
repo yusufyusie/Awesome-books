@@ -2,6 +2,7 @@ const form = document.querySelector('.add-book-form');
 const titleInput = document.querySelector('.title-book');
 const authorInput = document.querySelector('.author-book');
 const addButton = document.querySelector('.add-btn');
+const bookDisplay = document.querySelector('.books-display');
 const bookDetail = document.querySelector('.books-detail');
 const errorMsg = document.querySelector('.error-message');
 let newId = 0;
@@ -45,8 +46,10 @@ class Book {
     addNewBook.id = newId;
     const bookInfo = `
       <div id="${newId}">
-        <p class="book-position">"<span class="">${addNewBook.title}</span>" by <span class="">${addNewBook.author}</span></p>
+        <p>${addNewBook.title}</p>
+        <p>${addNewBook.author}</p>
         <button id="${newId}" class="btn-remove">Remove</button>
+        <hr>
       </div>
     `;
     bookDetail.innerHTML += bookInfo;
@@ -80,6 +83,7 @@ addButton.addEventListener('click', (e) => {
   }
   form.reset();
 });
+
 bookDisplay.addEventListener('click', (e) => {
   e.preventDefault();
   if (e.target.className === 'btn-remove') {
