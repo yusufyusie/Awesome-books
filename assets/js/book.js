@@ -49,7 +49,6 @@ class Book {
         <p>"<span>${addNewBook.title}</span>" by
         <span class="">${addNewBook.author}</span></p>
         <button id="${newId}" class="btn-remove">Remove</button>
-        <hr>
       </div>
     `;
     bookDetail.innerHTML += bookInfo;
