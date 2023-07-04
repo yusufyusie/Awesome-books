@@ -80,5 +80,15 @@ addButton.addEventListener('click', (e) => {
   }
   form.reset();
 });
+bookDisplay.addEventListener('click', (e) => {
+  e.preventDefault();
+  if (e.target.className === 'btn-remove') {
+    const { id } = e.target;
+    let books = Book.storeBooks();
+    books = books.filter((bk) => JSON.stringify(bk.id) !== id);
+    localStorage.setItem('local', JSON.stringify(books));
+    Book.deleteBookFromList(e.target);
+  }
+});
 
 document.addEventListener('DOMContentLoaded', Book.showBooks);
