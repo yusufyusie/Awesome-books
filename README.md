@@ -185,7 +185,6 @@ Give a ⭐️ if you like this project and how I managed to build it!
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 - **Can I fork and reuse the repository**
-
   - Yes please, feel free.
 
 - **Can I improve the repository, and my changes will be accepted if they are good?**
