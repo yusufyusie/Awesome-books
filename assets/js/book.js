@@ -1,10 +1,15 @@
-const form = document.querySelector('.add-book-form');
+const navList = document.querySelector('#nav-list');
+const navAdd = document.querySelector('#nav-add');
+const navContact = document.querySelector('#nav-contact');
 const titleInput = document.querySelector('.title-book');
 const authorInput = document.querySelector('.author-book');
 const addButton = document.querySelector('.add-btn');
 const bookDisplay = document.querySelector('.books-display');
 const bookDetail = document.querySelector('.books-detail');
 const errorMsg = document.querySelector('.error-message');
+const main = document.querySelector('.section');
+const form = document.querySelector('.add-book-form');
+const contact = document.querySelector('.contact-info');
 let newId = 0;
 
 class Book {
@@ -95,3 +100,21 @@ bookDisplay.addEventListener('click', (e) => {
 });
 
 document.addEventListener('DOMContentLoaded', Book.showBooks);
+
+navList.addEventListener('click', () => {
+  main.style.display = 'block';
+  form.style.display = 'none';
+  contact.style.display = 'none';
+});
+
+navAdd.addEventListener('click', () => {
+  main.style.display = 'none';
+  form.style.display = 'block';
+  contact.style.display = 'none';
+});
+
+navContact.addEventListener('click', () => {
+  main.style.display = 'none';
+  form.style.display = 'none';
+  contact.style.display = 'block';
+});
