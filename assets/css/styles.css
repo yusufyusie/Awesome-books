@@ -68,6 +68,13 @@ li#nav-contact {
   display: block;
 }
 
+#time {
+  position: fixed;
+  top: 5.5rem;
+  right: 1rem;  
+  font-size: 1.2em;
+}
+
 .books-display {
   border: 5px solid #000;
   margin: 1rem;
