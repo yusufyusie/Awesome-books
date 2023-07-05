@@ -8,8 +8,10 @@
   padding: 1.2rem;
   display: flex;
   flex-wrap: wrap;
+  background-color: #2c3e50;
+  color: #f8f9fa;
   justify-content: space-between;
-  border: 2px solid;
+  border: 2px solid #dc3545;
   flex-direction: row;
   font-weight: 900;
   position: fixed;
@@ -30,13 +32,40 @@
 
 a {
   text-decoration: none;
+  color: #f8f9fa;
 }
+
+a:focus, a:hover, a:active {
+  color: #16a98c;
+}
+
+a:hover {
+  color: #13967d;
+}
+
+
+
 
 li#nav-list,
 li#nav-add,
 li#nav-contact {
   cursor: pointer;
 }
+
+.section,
+.add-book-form,
+.contact-info {
+  display: none;
+  position: fixed;
+  top: 7rem;
+  bottom: 5rem;
+  left: 1rem;
+  right: 1rem;
+  overflow-y: auto;
+  color: #f8f9fa;
+  background-color: #198754;;
+}
+
 .books-display {
   border: 3px solid;
   margin-top: 5rem;
@@ -93,6 +122,10 @@ button.add-btn {
   justify-self: end;
 }
 
+p.error-message {
+  color: #f00;
+}
+
 .books-detail div {
   display: flex;
   justify-content: space-between;
@@ -104,4 +137,18 @@ button.add-btn {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+footer#footer {
+  display: flex;
+  justify-content: center;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  position: fixed;  
+  background-color: #2c3e50;  
+  border: 2px solid #dc3545;
+  color: #f8f9fa;
+  font-weight: 900;
+  padding: 1.2rem;
 }
