@@ -12,6 +12,7 @@
   color: #f8f9fa;
   justify-content: space-between;
   border: 2px solid #dc3545;
+  font-size: 1.25rem;
   flex-direction: row;
   font-weight: 900;
   position: fixed;
@@ -43,9 +44,6 @@ a:hover {
   color: #13967d;
 }
 
-
-
-
 li#nav-list,
 li#nav-add,
 li#nav-contact {
@@ -66,20 +64,24 @@ li#nav-contact {
   background-color: #198754;;
 }
 
+.section {
+  display: block;
+}
+
 .books-display {
-  border: 3px solid;
-  margin-top: 5rem;
+  border: 5px solid #000;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   font-size: 1.5em;
 }
 
-.header h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 950;
+.section h1 {
   margin: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .add-book-form {
@@ -98,6 +100,11 @@ li#nav-contact {
   gap: 0.5rem;
 }
 
+h2#contact-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
 #form-div {
   display: flex;
   flex-direction: column;
@@ -110,6 +117,14 @@ form input {
   font-size: 1rem;
   padding: 0.5rem;
   border: 1px solid;
+}
+
+h2#form-title {
+  font-size: 2rem;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  padding-top: 1rem;
 }
 
 .remove-btn {
@@ -131,12 +146,28 @@ p.error-message {
   justify-content: space-between;
   background-color: #dcdcdc;
   padding: 0.5rem;
+  color: #000;
 }
 
 .books-detail {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+section#contact div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+ul#contact-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: disc;
 }
 
 footer#footer {
@@ -150,5 +181,5 @@ footer#footer {
   border: 2px solid #dc3545;
   color: #f8f9fa;
   font-weight: 900;
-  padding: 1.2rem;
+  padding: 1rem;
 }
