@@ -46,10 +46,9 @@ class Book {
     addNewBook.id = newId;
     const bookInfo = `
       <div id="${newId}">
-        <p>${addNewBook.title}</p>
-        <p>${addNewBook.author}</p>
-        <button id="${newId}" class="btn-remove">Remove</button>
-        <hr>
+        <p>"<span>${addNewBook.title}</span>" by
+        <span class="">${addNewBook.author}</span></p>
+        <button id="${newId}" class="remove-btn">Remove</button>
       </div>
     `;
     bookDetail.innerHTML += bookInfo;
@@ -86,7 +85,7 @@ addButton.addEventListener('click', (e) => {
 
 bookDisplay.addEventListener('click', (e) => {
   e.preventDefault();
-  if (e.target.className === 'btn-remove') {
+  if (e.target.className === 'remove-btn') {
     const { id } = e.target;
     let books = Book.storeBooks();
     books = books.filter((bk) => JSON.stringify(bk.id) !== id);
