@@ -48,7 +48,7 @@ class Book {
       <div id="${newId}">
         <p>"<span>${addNewBook.title}</span>" by
         <span class="">${addNewBook.author}</span></p>
-        <button id="${newId}" class="btn-remove">Remove</button>
+        <button id="${newId}" class="remove-btn">Remove</button>
       </div>
     `;
     bookDetail.innerHTML += bookInfo;

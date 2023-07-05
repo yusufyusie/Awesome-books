@@ -36,26 +36,6 @@
   gap: 0.5rem;
 }
 
-#form-div {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.1rem;
-}
-
-form input {
-  width: 20rem;
-  font-size: 1rem;
-  padding: 0.5rem;
-  border: 1px solid;
-}
-
-button.add-btn {
-  font-size: 1rem;
-  padding: 0.5rem;
-  justify-self: end;
-}
-
 .books-detail div {
   display: flex;
   justify-content: space-between;
