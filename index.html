@@ -29,24 +29,47 @@
             </div>
         </nav>
       </header>  
+
       <section class="section">
         <article>
             <!-- display books -->
+            <h1>All awesome books</h1>
             <div class="books-display">
               <div class="books-detail"></div>
             </div>
         </article>
       </section>
+
     <form id="form" action="" class="add-book-form">
         <div>
-            <h2>Add a new book</h2>
+            <h2 id="form-title">Add a new book</h2>
             <div id="form-div">
                 <input type="text" id="title" class="title-book" name="title" placeholder="Title"></br>
                 <input type="text" id="author" class="author-book" name="author" placeholder="Author"><br>
+                <p class="error-message">*field is empty</p>
                 <button type="submit" value="submit" class="add-btn">Add</button> 
             </div>
         </div>
     </form>
+
+    <section id="contact" class="contact-info">
+      <div>
+        <h2 id="contact-title">Contact Information</h2>
+
+        <p id="contact-par">Do you have any questions or you just want to say "Hello"? You can reach out to us:</p>
+
+        <ul id="contact-items">
+          <li>Our email: yesuf023@gmail.com.</li>
+          <li>Our phone number: (+251) 923-5319-46.</li>
+          <li>Our address: Addis Ababa, Ethiopia.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div><p>&#169; Copyright 2023</p></div>
+    </footer>
+
     <script src="./assets/js/book.js"></script>
 </body>
 </html>
