@@ -3,7 +3,34 @@
   padding: 0;
   margin: 0;
 }
+.navbar {
+  padding: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid;
+  flex-direction: row;
+  font-weight: 900;
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+}
 
+.navbar-nav-items {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+li#nav-list,
+li#nav-add,
+li#nav-contact {
+  cursor: pointer;
+}
 .books-display {
   border: 3px solid;
   margin-top: 5rem;
