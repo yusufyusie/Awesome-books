@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 .navbar {
   padding: 1.2rem;
   display: flex;
@@ -23,7 +24,12 @@
   position: relative;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 li#nav-list,
