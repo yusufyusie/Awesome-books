@@ -85,7 +85,7 @@ addButton.addEventListener('click', (e) => {
 
 bookDisplay.addEventListener('click', (e) => {
   e.preventDefault();
-  if (e.target.className === 'btn-remove') {
+  if (e.target.className === 'remove-btn') {
     const { id } = e.target;
     let books = Book.storeBooks();
     books = books.filter((bk) => JSON.stringify(bk.id) !== id);
