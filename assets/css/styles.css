@@ -4,8 +4,77 @@
   margin: 0;
 }
 
+.navbar {
+  padding: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #2c3e50;
+  color: #f8f9fa;
+  justify-content: space-between;
+  border: 2px solid #dc3545;
+  font-size: 1.25rem;
+  flex-direction: row;
+  font-weight: 900;
+  position: fixed;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+}
+
+.navbar-nav-items {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: #16a98c;
+}
+
+li#nav-list,
+li#nav-add,
+li#nav-contact {
+  cursor: pointer;
+}
+
+.section,
+.add-book-form,
+.contact-info {
+  display: none;
+  position: fixed;
+  top: 7rem;
+  bottom: 5rem;
+  left: 1rem;
+  right: 1rem;
+  overflow-y: auto;
+  color: #f8f9fa;
+  background-color: #198754;
+}
+
+.section {
+  display: block;
+}
+
+#time {
+  position: fixed;
+  top: 5.5rem;
+  right: 1rem;
+  font-size: 1.2rem;
+}
+
 .books-display {
-  border: 5px solid;
+  border: 5px solid #000;
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -13,11 +82,11 @@
   font-size: 1.5em;
 }
 
-.header h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 950;
+.section h1 {
   margin: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .add-book-form {
@@ -36,6 +105,11 @@
   gap: 0.5rem;
 }
 
+h2#contact-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
 #form-div {
   display: flex;
   flex-direction: column;
@@ -50,6 +124,14 @@ form input {
   border: 1px solid;
 }
 
+h2#form-title {
+  font-size: 2rem;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  padding-top: 1rem;
+}
+
 .remove-btn {
   padding: 5px;
 }
@@ -60,15 +142,49 @@ button.add-btn {
   justify-self: end;
 }
 
+p.error-message {
+  color: #f00;
+}
+
 .books-detail div {
   display: flex;
   justify-content: space-between;
   background-color: #dcdcdc;
   padding: 0.5rem;
+  color: #000;
 }
 
 .books-detail {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+section#contact div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+ul#contact-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: disc;
+}
+
+footer#footer {
+  display: flex;
+  justify-content: center;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  position: fixed;
+  background-color: #2c3e50;
+  border: 2px solid #dc3545;
+  color: #f8f9fa;
+  font-weight: 900;
+  padding: 1rem;
 }
