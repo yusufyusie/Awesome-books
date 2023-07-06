@@ -41,7 +41,8 @@
   <ul>
     
     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Javascript_basics">JavaScript</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS</a></li>
+     <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Javascript_basics">JavaScript</a></li>
   </ul>
 </details>
 
@@ -59,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- N/A
+[See Live Demo](https://yusufyusie.github.io/Awesome-books)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
